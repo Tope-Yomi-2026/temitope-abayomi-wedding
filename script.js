@@ -1,0 +1,1 @@
+const t=new Date('2026-09-24T11:00:00');function u(){let d=t-new Date();if(d<0){countdown.textContent='Today!';return;}countdown.textContent=Math.floor(d/86400000)+' days';}u();setInterval(u,60000);
