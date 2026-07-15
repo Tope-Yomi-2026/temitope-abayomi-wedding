@@ -1,1 +1,0 @@
-document.getElementById('seal').onclick=function(){this.classList.add('open');setTimeout(()=>{document.getElementById('intro').style.display='none';document.getElementById('hero').classList.remove('hidden');},650);}
